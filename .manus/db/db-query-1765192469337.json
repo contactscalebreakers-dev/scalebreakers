@@ -1,0 +1,64 @@
+{
+  "query": "SELECT id, title, description, date, price, capacity, location FROM workshops ORDER BY date ASC;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 4HskqtrmHBirxbq.root --database E83x3odVn6hMmUCFfhYife --execute SELECT id, title, description, date, price, capacity, location FROM workshops ORDER BY date ASC;",
+  "rows": [
+    {
+      "id": "5ba5f020-bfd3-4f18-aa2d-f241481e54f8",
+      "title": "Urban Wind Chimes",
+      "description": "Create stunning wind chimes using reclaimed urban materials and sustainable practices.",
+      "date": "2025-11-01 11:03:53",
+      "price": "20",
+      "capacity": "23",
+      "location": "Brisbane, QLD"
+    },
+    {
+      "id": "9a5a58f2-8f95-44d4-8b25-d38ceb341116",
+      "title": "Street Diorama",
+      "description": "Build a miniature urban street scene with 3D models and street art details.",
+      "date": "2025-11-08 11:03:53",
+      "price": "20",
+      "capacity": "23",
+      "location": "Brisbane, QLD"
+    },
+    {
+      "id": "0adaa1ae-9c6e-4ae9-ba93-c0ad04e51d11",
+      "title": "Street Tote Custom",
+      "description": "Design and customize your own street-inspired tote bag with vinyl and paint markers.",
+      "date": "2025-11-15 11:03:53",
+      "price": "20",
+      "capacity": "23",
+      "location": "Brisbane, QLD"
+    },
+    {
+      "id": "1570646d-c847-4253-ba23-646884b7d117",
+      "title": "Mini Letterbox",
+      "description": "Craft a functional mini letterbox with custom street art design and personalization.",
+      "date": "2025-11-20 21:54:51",
+      "price": "20",
+      "capacity": "23",
+      "location": "Brisbane, QLD"
+    },
+    {
+      "id": "4c724b70-83b3-472c-8431-2cfaf67aec3f",
+      "title": "Board Restoration",
+      "description": "Restore and customize a skateboard or wooden board with professional techniques.",
+      "date": "2025-11-29 11:03:53",
+      "price": "20",
+      "capacity": "23",
+      "location": "Brisbane, QLD"
+    },
+    {
+      "id": "9abd1119-b529-4c32-b01b-8071513a41f5",
+      "title": "Custom Tumbler Lab",
+      "description": "Design and create custom personalized tumblers with vinyl and paint techniques.",
+      "date": "2025-12-04 21:54:51",
+      "price": "20",
+      "capacity": "23",
+      "location": "Brisbane, QLD"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\ttitle\tdescription\tdate\tprice\tcapacity\tlocation\n5ba5f020-bfd3-4f18-aa2d-f241481e54f8\tUrban Wind Chimes\tCreate stunning wind chimes using reclaimed urban materials and sustainable practices.\t2025-11-01 11:03:53\t20\t23\tBrisbane, QLD\n9a5a58f2-8f95-44d4-8b25-d38ceb341116\tStreet Diorama\tBuild a miniature urban street scene with 3D models and street art details.\t2025-11-08 11:03:53\t20\t23\tBrisbane, QLD\n0adaa1ae-9c6e-4ae9-ba93-c0ad04e51d11\tStreet Tote Custom\tDesign and customize your own street-inspired tote bag with vinyl and paint markers.\t2025-11-15 11:03:53\t20\t23\tBrisbane, QLD\n1570646d-c847-4253-ba23-646884b7d117\tMini Letterbox\tCraft a functional mini letterbox with custom street art design and personalization.\t2025-11-20 21:54:51\t20\t23\tBrisbane, QLD\n4c724b70-83b3-472c-8431-2cfaf67aec3f\tBoard Restoration\tRestore and customize a skateboard or wooden board with professional techniques.\t2025-11-29 11:03:53\t20\t23\tBrisbane, QLD\n9abd1119-b529-4c32-b01b-8071513a41f5\tCustom Tumbler Lab\tDesign and create custom personalized tumblers with vinyl and paint techniques.\t2025-12-04 21:54:51\t20\t23\tBrisbane, QLD\n",
+  "stderr": "",
+  "execution_time_ms": 6674
+}

@@ -1,0 +1,52 @@
+{
+  "query": "SELECT id, title, price, capacity, location FROM workshops;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 4HskqtrmHBirxbq.root --database E83x3odVn6hMmUCFfhYife --execute SELECT id, title, price, capacity, location FROM workshops;",
+  "rows": [
+    {
+      "id": "0adaa1ae-9c6e-4ae9-ba93-c0ad04e51d11",
+      "title": "Street Tote Custom",
+      "price": "20",
+      "capacity": "23",
+      "location": "Brisbane, QLD"
+    },
+    {
+      "id": "1570646d-c847-4253-ba23-646884b7d117",
+      "title": "Mini Letterbox",
+      "price": "20",
+      "capacity": "23",
+      "location": "Brisbane, QLD"
+    },
+    {
+      "id": "4c724b70-83b3-472c-8431-2cfaf67aec3f",
+      "title": "Board Restoration",
+      "price": "20",
+      "capacity": "23",
+      "location": "Brisbane, QLD"
+    },
+    {
+      "id": "5ba5f020-bfd3-4f18-aa2d-f241481e54f8",
+      "title": "Urban Wind Chimes",
+      "price": "20",
+      "capacity": "23",
+      "location": "Brisbane, QLD"
+    },
+    {
+      "id": "9a5a58f2-8f95-44d4-8b25-d38ceb341116",
+      "title": "Street Diorama",
+      "price": "20",
+      "capacity": "23",
+      "location": "Brisbane, QLD"
+    },
+    {
+      "id": "9abd1119-b529-4c32-b01b-8071513a41f5",
+      "title": "Custom Tumbler Lab",
+      "price": "20",
+      "capacity": "23",
+      "location": "Brisbane, QLD"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\ttitle\tprice\tcapacity\tlocation\n0adaa1ae-9c6e-4ae9-ba93-c0ad04e51d11\tStreet Tote Custom\t20\t23\tBrisbane, QLD\n1570646d-c847-4253-ba23-646884b7d117\tMini Letterbox\t20\t23\tBrisbane, QLD\n4c724b70-83b3-472c-8431-2cfaf67aec3f\tBoard Restoration\t20\t23\tBrisbane, QLD\n5ba5f020-bfd3-4f18-aa2d-f241481e54f8\tUrban Wind Chimes\t20\t23\tBrisbane, QLD\n9a5a58f2-8f95-44d4-8b25-d38ceb341116\tStreet Diorama\t20\t23\tBrisbane, QLD\n9abd1119-b529-4c32-b01b-8071513a41f5\tCustom Tumbler Lab\t20\t23\tBrisbane, QLD\n",
+  "stderr": "",
+  "execution_time_ms": 1753
+}
